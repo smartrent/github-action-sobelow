@@ -15,4 +15,3 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.flags }}
-    - ${{ inputs.report }}

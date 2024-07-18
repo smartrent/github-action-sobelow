@@ -22,9 +22,8 @@ jobs:
 
 This will scan your Phoenix application, and add findings to the Security tab of your repository. 
 
-Two options are supported:
+One option is supported:
 
-* `report`: if set to "false", this will not generate a report, and will output findings to stdout. 
 * `flags`: accepts arbitrary Sobelow flags.
 
 The following example uses `flags` to suppress `Config` findings:
