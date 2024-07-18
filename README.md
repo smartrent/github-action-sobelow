@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v2
       - id: run-action
         uses: sobelow/action@v1
-      - uses: github/codeql-action/upload-sarif@v1
+      - uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: results.sarif
 ```
@@ -41,7 +41,7 @@ jobs:
         uses: sobelow/action@v1
         with:
           flags: '-i Config'
-      - uses: github/codeql-action/upload-sarif@v1
+      - uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: results.sarif
 ```
